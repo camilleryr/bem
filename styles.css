@@ -1,0 +1,60 @@
+body {
+    width : 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.c-card {
+    width: 300px;
+    background-color: ivory;
+    border: solid 1px khaki;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.c-card__image {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.c-card__title,
+.c-card__price {
+    margin: 8px;
+}
+
+.c-card__title {
+    color: slategray;
+    font-size: 18px;
+}
+
+.c-card__price {
+    color: yellowgreen;
+    font-size: 16px;
+}
+
+.c-card__image {
+    border-radius: 10px;
+}
+
+.l-list {
+    padding: 0;
+}
+
+.l-list__item {
+    margin: 0;
+    list-style: none;
+    font-size: 12px;
+    color: black;
+}
+
+.l-list__item--miles {
+    color: crimson;
+}
+
+.l-list__item--engine {
+    color: darkolivegreen;
+}
